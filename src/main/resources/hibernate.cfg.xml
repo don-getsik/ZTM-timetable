@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name = "hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name = "hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name = "hibernate.connection.url">jdbc:mysql://sql11.freemysqlhosting.net:3306/sql11207305</property>
+        <property name="hibernate.connection.useUnicode">yes</property>
+        <property name="hibernate.connection.characterEncoding">UTF-8</property>
+        <property name = "hibernate.connection.username">sql11207305</property>
+        <property name = "hibernate.connection.password">H5x4JE31KF</property>
+        <property name="hbm2ddl.auto">update</property>
+        <property name="show_sql">false</property>
+        <property name="current_session_context_class">thread</property>
+        <mapping resource = "Stop.hbm.xml"/>
+        <mapping resource = "StopGroup.hbm.xml"/>
+    </session-factory>
+</hibernate-configuration>
+

@@ -1,0 +1,23 @@
+.root {
+    -fx-background-color: cyan;
+}
+
+.label {
+    -fx-text-fill: firebrick;
+}
+
+.text-field {
+    -fx-background-color: brown;
+    -fx-text-fill: purple;
+}
+
+.menu-bar {
+    -fx-background-color: orange;
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+}
+

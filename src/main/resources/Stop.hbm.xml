@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name = "pl.edu.wat.wcy.isi.prz.database.Stop" table = "stop">
+
+        <id name="idStop" type="int" column="idStop"/>
+        <property name = "locale" column = "locale" type = "string"/>
+        <property name="direction" column="direction" type="string"/>
+        <property name="X" column="x" type="double"/>
+        <property name="y" column="y" type="double"/>
+        <property name="stableLines" column="stableLines" type="string"/>
+        <property name="requestLines" column="requestLines" type="string"/>
+        <property name="forGetInLines" column="forGetInLines" type="string"/>
+        <property name="forGetOffLines" column="forGetOffLines" type="string"/>
+        <property name="endLines" column="endLines" type="string"/>
+        <property name="idStopGroup" column="idStopGroup" type="int"/>
+        <property name="name" column="name" type="string"/>
+
+    </class>
+</hibernate-mapping>
